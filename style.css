@@ -1,0 +1,51 @@
+body {
+    background: rgb(33, 228, 220);
+    background: linear-gradient(90deg, rgba(33, 228, 220, 1) 0%, rgba(54, 93, 162, 1) 47%, rgba(65, 12, 128, 1) 100%);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#minutes,
+#points,
+#seconds,
+#tens {
+    font-size: 5em;
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+button {
+    background: #DC007E;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 3em;
+    padding: 18px 10px;
+    width: 300px;
+    margin: 40px;
+    outline: none;
+    border-radius: 10px;
+    border: solid 1px #DC007E;
+}
+
+button:hover {
+    background: white;
+    border: solid 1px white;
+    color: #DC007E;
+}
